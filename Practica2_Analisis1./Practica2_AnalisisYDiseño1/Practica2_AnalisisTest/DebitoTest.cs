@@ -15,7 +15,7 @@ namespace Practica2_AnalisisyDiseño1.Tests
             const int numero_debitado = 4321; //cuenta de la persona a debitar
             const float monto = 300;//monto de la debitacion
             const String descripcion = "Debito de la cuenta 300 a la 400 monto 200";//descripcion de la debitacion
-            const float esperado = 2;
+            const float esperado = 0;
 
             //Act o Prueba
             var actual = BaseDatos.Debitar(numero_debitador, numero_debitado, monto, descripcion);
